@@ -36,7 +36,7 @@ Try these simple commands:
 
     3) Change your password
     
-Use `sudo passwd ubuntu' command, then type the password you would like. Please make it strong!!!
+Use `sudo passwd ubuntu` command, then type the password you would like. Please make it strong!!!
 
 ---
 

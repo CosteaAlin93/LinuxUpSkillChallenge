@@ -36,7 +36,8 @@ That's all for today. Easy but fundamental.
 
 ---
 
-<br></details>
+<br>
+</details>
 
     
 <details><summary> Day 2 - Basic navigation </summary>
@@ -132,5 +133,4 @@ To exit that prompt, the command `bash` will open a new shell with your default 
  
  
  <br>
- 
- </details>
+ </details> 

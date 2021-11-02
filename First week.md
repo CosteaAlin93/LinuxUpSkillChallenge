@@ -50,8 +50,11 @@ That's all for today. Easy but fundamental.
  
 ![image](https://user-images.githubusercontent.com/86648102/139803730-a9f6239e-18a2-4d1f-b178-ce8e24532203.png)
 
- 
  ---
+     2) Use the `printenv` command to show info about the current environment. Those can also be shown separately, by using `echo $HOME` , `echo $PWD` , `echo $OLDPWD` , `echo $USER` , or just `echo $ <any variable you see in the printenv output>` 
+ ![image](https://user-images.githubusercontent.com/86648102/139804269-ac30f832-a525-4be6-892e-98b69920e866.png)
+
+ 
  ---
  ---
  

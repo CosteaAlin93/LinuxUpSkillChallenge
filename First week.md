@@ -1,7 +1,6 @@
 <details><summary> Day 1 - Get to know your server </summary>
  <br>
 
-    
     1) Connect and login remotely to your server
 - Log into the AWS account you created in the Day0 of the challenge and launch your EC2 instance.
 
@@ -15,7 +14,7 @@
 
 ![image](https://user-images.githubusercontent.com/86648102/139728494-e64ccdf7-c9d3-4092-942f-ef562712a252.png)
 
-    
+---
     2) Run a few simple simple commands to check the status of your server
 Try these simple commands:
 `ls`
@@ -26,6 +25,7 @@ Try these simple commands:
 
 ![image](https://user-images.githubusercontent.com/86648102/139728753-038bc87a-7824-49d6-b59b-a41ee2ac0ff9.png)
 
+ ---
     3) Change your password
     
 Use `sudo passwd ubuntu` command, then type the password you would like. Please make it strong!!!
@@ -36,9 +36,25 @@ That's all for today. Easy but fundamental.
 
 ---
 
-<br>
- 
- </details>
+<br></details>
 
     
+<details><summary> Day 2 - Basic navigation </summary>
+ <br>
+ 
+    1) Login to your server using ssh
+ 
+ ![image](https://user-images.githubusercontent.com/86648102/139802849-392214b2-c63c-476d-b66a-3e3adaf88aed.png)
 
+    Use `pwd` and `cd` commands. Get familiar with them. Learn to use both, absolute and relative paths to change directories.
+ 
+![image](https://user-images.githubusercontent.com/86648102/139803730-a9f6239e-18a2-4d1f-b178-ce8e24532203.png)
+
+ 
+ ---
+ ---
+ ---
+ 
+ <br>
+ 
+ </details>

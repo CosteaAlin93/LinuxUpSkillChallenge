@@ -83,16 +83,45 @@ To exit that prompt, the command `bash` will open a new shell with your default 
      5) Create files and directories.
  
  `mkdir` - will make a new directory in your current folder by default.
+ 
  `touch a` - will create a blank file named 'a' in your current folder. 
  
  ![image](https://user-images.githubusercontent.com/86648102/139925551-5ccbd957-a009-406b-b065-35a2b727d362.png)
 
+ `mv` to move a file to another directory or rename a file
+
+ ![image](https://user-images.githubusercontent.com/86648102/139925919-73b54b4d-23f5-4b87-8d6d-593982b3715c.png)
+
+ `cp` will copy a file.
  
+ ![image](https://user-images.githubusercontent.com/86648102/139926682-1fbaef20-73b5-4eef-98ba-4fd429fb3c62.png)
+
+ `rm` will remove a file or multiple files
  
+ ![image](https://user-images.githubusercontent.com/86648102/139926810-a2dc4bb5-992b-4eb5-be35-94aadd480028.png)
+
+ `rmdir` will delete an empty directory
  
+ ![image](https://user-images.githubusercontent.com/86648102/139926979-4be607af-fa91-435a-b979-b21fd65ab6ba.png)
+
+ ---
+     6) RTFM. I'll let you guess what this means.
  
+ `man` is a command that displays the manual of the command given as argument.
+ `man ls` will display everthing there is to know about `ls` command.
  
+ ![image](https://user-images.githubusercontent.com/86648102/139927460-60069b1b-89cf-4d55-be09-9f720d0af49b.png)
+
+ `apropos` is kind of the same, except that is shows every command or command explanations containing what we give as argument.
  
+ ![image](https://user-images.githubusercontent.com/86648102/139927910-8f18f93e-d9a4-494d-bc12-3330bc0a03a6.png)
+
+ `tldr` is a shorter version of man, containing a simplified version
+ 
+ ![image](https://user-images.githubusercontent.com/86648102/139928305-b25ea31c-9d9f-4957-9faa-9a85b607e92f.png)
+
+ 
+ ---
  
  
  

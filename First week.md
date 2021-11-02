@@ -52,11 +52,55 @@ That's all for today. Easy but fundamental.
 
  ---
      2) Use the `printenv` command to show info about the current environment. Those can also be shown separately, by using `echo $HOME` , `echo $PWD` , `echo $OLDPWD` , `echo $USER` , or just `echo $ <any variable you see in the printenv output>` 
+ 
  ![image](https://user-images.githubusercontent.com/86648102/139804269-ac30f832-a525-4be6-892e-98b69920e866.png)
 
+ ---
+     3) Get used with `ls` command. `ls -l ; ls -lh ; ls -ltr ; ls -altr` . You'll use this command and switches daily.
+ 
+ ![image](https://user-images.githubusercontent.com/86648102/139922296-b519c19e-c4f9-48c3-8c46-ad430cfbe8c8.png)
+
+ ---
+    4) Prompt customization
+ `echo $PS1` will display current prompt.
+ 
+ ![image](https://user-images.githubusercontent.com/86648102/139924383-e851d51b-10be-4f37-a66d-18a426722a87.png)
+
+ 
+ This article here, will help you customize your prompt in more detail : 
+ 
+ https://phoenixnap.com/kb/change-bash-prompt-linux
+ 
+ For instance, let's change the prompt to give a bit more detail.
+ 
+ `export PS1="\u\@\h \w \s \d \W \t"`
+ 
+To exit that prompt, the command `bash` will open a new shell with your default environment.
+ 
+ ![image](https://user-images.githubusercontent.com/86648102/139925150-15cc8142-5d31-415d-9a4e-38791447547f.png)
+
+ ---
+     5) Create files and directories.
+ 
+ `mkdir` - will make a new directory in your current folder by default.
+ `touch a` - will create a blank file named 'a' in your current folder. 
+ 
+ ![image](https://user-images.githubusercontent.com/86648102/139925551-5ccbd957-a009-406b-b065-35a2b727d362.png)
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  ---
- ---
+ 
  
  <br>
  

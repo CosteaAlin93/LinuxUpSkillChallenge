@@ -1,7 +1,7 @@
-*** DAY 1 ***
+<details><summary> Day 1 - Get to know your server </summary>
+ <br>
 
-YOUR TASKS TODAY:
-
+    
     1) Connect and login remotely to your server
 - Log into the AWS account you created in the Day0 of the challenge and launch your EC2 instance.
 
@@ -15,21 +15,13 @@ YOUR TASKS TODAY:
 
 ![image](https://user-images.githubusercontent.com/86648102/139728494-e64ccdf7-c9d3-4092-942f-ef562712a252.png)
 
-** Good. We are in now. **
-
-
+    
     2) Run a few simple simple commands to check the status of your server
-
 Try these simple commands:
-
 `ls`
-
 `uptime`
-
 `free`
-
 `df -h`
-
 `uname -a`
 
 ![image](https://user-images.githubusercontent.com/86648102/139728753-038bc87a-7824-49d6-b59b-a41ee2ac0ff9.png)
@@ -44,6 +36,9 @@ That's all for today. Easy but fundamental.
 
 ---
 
-    
+<br>
+ 
+ </details>
+
     
 

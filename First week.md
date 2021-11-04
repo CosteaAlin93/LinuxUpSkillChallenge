@@ -126,11 +126,36 @@ To exit that prompt, the command `bash` will open a new shell with your default 
  
  
  
+<br>
+</details>
  
  
+<details><summary> Day 3 - Power trip! </summary>
+<br>
+    1) `root` user is the boss of your system.Period. All the other users should have the minimum ammount of permission; just the necessary stuff for their actions to be possible. However, if your user is properly configured/allowed, you can run commands as the `root` user from your current one. For that, you need to use the `sudo` command.
  
- ---
+ ![image](https://user-images.githubusercontent.com/86648102/140276137-d8c21f0a-780b-4159-ad7e-981bbe8f92fb.png)
+
+ 
+ ![image](https://user-images.githubusercontent.com/86648102/140275620-c51b4f8c-171a-4a21-9bb0-199319de366d.png)
+
+    2) `uptime` command can be used to check for how long is the system running and how many users are connected.
+ 
+ ![image](https://user-images.githubusercontent.com/86648102/140275929-3f8cb4fa-6871-4b8f-9cbe-3c2fd9e286f7.png)
+
+    3) Log checking. For instance, check authentication logs. Many other usefull files are in the `/var/log/` directory.
+ 
+ ![image](https://user-images.githubusercontent.com/86648102/140277142-1b1f180c-1784-4341-a596-2a6114445712.png)
+
+You can also, filter the results using `grep` to show only sudo entries.
+ 
+ ![image](https://user-images.githubusercontent.com/86648102/140277587-745a1be9-91e6-4874-a207-0258f981e990.png)
+
+    4) Hostname changing. 
+     
  
  
- <br>
- </details> 
+  
+  
+<br>  
+</details> 

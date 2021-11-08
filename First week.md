@@ -17,7 +17,7 @@
 ---
     2) Run a few simple simple commands to check the status of your server
 Try these simple commands:
-`ls`
+- `ls`
 `uptime`
 `free`
 `df -h`

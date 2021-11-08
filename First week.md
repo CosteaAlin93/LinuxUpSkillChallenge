@@ -186,9 +186,10 @@ You can also, filter the results using `grep` to show only sudo entries.
     1) Install new applications.
  
 > For Debian: apt, dpkg, aptitude, synaptic  (.deb)
+ 
 > For Redhat: yum, dnf, (.rpm)
  
-    Example: we want to install midnight commander, but don't know the exact name of the package.
+Example: we want to install midnight commander, but don't know the exact name of the package.
  
     `apt search midnight`
  
@@ -198,11 +199,26 @@ You can also, filter the results using `grep` to show only sudo entries.
  
  ![image](https://user-images.githubusercontent.com/86648102/140811943-24665b1c-83e7-4bff-8c32-07e3c820cbca.png)
 
+    2) File System Hierarchy
  
+     `man hier`
  
+ ![image](https://user-images.githubusercontent.com/86648102/140812498-1cbc6ec6-a902-4d4f-91ba-873da97a67e5.png)
+
+ > And many more are explained in the output of the above command.
  
+    3) Most of the configuration files of the system will be placed in /etc
+ 
+    `cat /etc/ssh/sshd_config`
+ 
+ ![image](https://user-images.githubusercontent.com/86648102/140812807-10ed1e0b-0069-4519-97d3-8208b057a8ee.png)
+
  <br>  
 </details> 
  
  
+<details><summary> Day 4 - Installing software, exploring the file structure </summary>
+<br>
  
+  <br>  
+</details> 

@@ -132,6 +132,7 @@ To exit that prompt, the command `bash` will open a new shell with your default 
  
 <details><summary> Day 3 - Power trip! </summary>
 <br>
+ 
     1) The `root` user is the boss of your system.Period. All the other users should have the minimum ammount of permission; just the necessary stuff for their actions to be possible. However, if your user is properly configured/allowed, you can run commands as the `root` user from your current one. For that, you need to use the `sudo` command.
  
  ![image](https://user-images.githubusercontent.com/86648102/140276137-d8c21f0a-780b-4159-ad7e-981bbe8f92fb.png)

@@ -201,6 +201,7 @@ Example: we want to install midnight commander, but don't know the exact name of
 
     2) File System Hierarchy
  
+ 
      `man hier`
  
  ![image](https://user-images.githubusercontent.com/86648102/140812498-1cbc6ec6-a902-4d4f-91ba-873da97a67e5.png)
@@ -208,6 +209,7 @@ Example: we want to install midnight commander, but don't know the exact name of
  > And many more are explained in the output of the above command.
  
     3) Most of the configuration files of the system will be placed in /etc
+ 
  
     `cat /etc/ssh/sshd_config`
  
@@ -217,8 +219,57 @@ Example: we want to install midnight commander, but don't know the exact name of
 </details> 
  
  
-<details><summary> Day 4 - Installing software, exploring the file structure </summary>
+<details><summary> Day 5 - More or less... </summary>
 <br>
+ 
+    1) Reading files with `more`
+ 
+ ![image](https://user-images.githubusercontent.com/86648102/140813672-56c243a0-e11f-4e09-9718-d861f1b17985.png)
+
+    However `less` seems easier to use, thanks to the arrow keys which are now available.
+ 
+ ![image](https://user-images.githubusercontent.com/86648102/140814058-93e1922a-daaf-44cc-9ca9-98d44926bb43.png)
+
+ g /G used to navigate to start/end of file
+ 
+ f/d/e and b/u/y used to go one line/half-screen/fullscreen upper/lower in the page.
+
+ /  - search item
+ n/H  - next/before result while searching
+ 
+ h - help to navigate
+ q - quit
+ 
+    2) Tab completion
+ 
+Use the "Tab" key for command autocompletion.
+ 
+ ![image](https://user-images.githubusercontent.com/86648102/140814598-be483807-046b-4bd9-adc1-6b3c3eec1330.png)
+ + the TAB key >>> 
+ 
+ ![image](https://user-images.githubusercontent.com/86648102/140814650-f991d7a6-ddd8-4f83-8231-b55cf3f012b5.png)
+
+    4) Command history.
+ 
+ ![image](https://user-images.githubusercontent.com/86648102/140814802-c4f43447-af70-4706-a1e8-d6454e3dcec5.png)
+
+ - Use !+"history command number" to execute it again.
+ 
+ ![image](https://user-images.githubusercontent.com/86648102/140815141-9ac79d18-52dc-4af7-9138-5ce7cf1cb743.png)
+
+ - !! let's you run the last command again.
+ - !sudo : runs the last command starting with sudo
+ - Or when you execute a command and forgot to use sudo? Just do a `sudo !!`
+ 
+ ![image](https://user-images.githubusercontent.com/86648102/140815499-b6987d3b-2329-4155-81b9-ccdb0d579090.png)
+
+    5) Hidden files. Any files starting with a `.` .
+ 
+ The "~/.bash_history" retains all the commands ran.
+ 
+ 
+ 
+ 
  
   <br>  
 </details> 

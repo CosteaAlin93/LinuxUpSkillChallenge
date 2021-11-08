@@ -133,7 +133,9 @@ To exit that prompt, the command `bash` will open a new shell with your default 
 <details><summary> Day 3 - Power trip! </summary>
 <br>
  
-    1) The `root` user is the boss of your system.Period. All the other users should have the minimum ammount of permission; just the necessary stuff for their actions to be possible. However, if your user is properly configured/allowed, you can run commands as the `root` user from your current one. For that, you need to use the `sudo` command.
+    1) The `root` user is the boss of your system.Period. 
+ 
+     All the other users should have the minimum ammount of permission; just the necessary stuff for their actions to be possible. However, if your user is properly configured/allowed, you can run commands as the `root` user from your current one. For that, you need to use the `sudo` command.
  
  ![image](https://user-images.githubusercontent.com/86648102/140276137-d8c21f0a-780b-4159-ad7e-981bbe8f92fb.png)
 
@@ -162,6 +164,7 @@ You can also, filter the results using `grep` to show only sudo entries.
  ![image](https://user-images.githubusercontent.com/86648102/140809319-48975163-c331-413a-9e22-7e89f86a98a7.png)
 
      5) Change the system time and date
+ 
      `timedatectl`
  
  ![image](https://user-images.githubusercontent.com/86648102/140809505-5256830b-6f0a-443f-8b01-0e72a62776ff.png)
@@ -169,9 +172,37 @@ You can also, filter the results using `grep` to show only sudo entries.
  ![image](https://user-images.githubusercontent.com/86648102/140809561-7f305d17-ca90-4b4c-915f-720cbabff9f8.png)
 
     `sudo timedatectl set-timezone Europe/Bucharest`
- > Used this to set to my local time.
+ > Used this to set the time to my current timezone.
  
  ![image](https://user-images.githubusercontent.com/86648102/140809869-2818f971-08b1-4f66-a64a-025bbb5bf007.png)
   
 <br>  
 </details> 
+ 
+ 
+<details><summary> Day 4 - Installing software, exploring the file structure </summary>
+<br>
+ 
+    1) Install new applications.
+ 
+> For Debian: apt, dpkg, aptitude, synaptic  (.deb)
+> For Redhat: yum, dnf, (.rpm)
+ 
+    Example: we want to install midnight commander, but don't know the exact name of the package.
+ 
+    `apt search midnight`
+ 
+ ![image](https://user-images.githubusercontent.com/86648102/140811849-28a2c2ec-dd90-4723-a604-d46455b42b14.png)
+
+    `sudo apt install mc`
+ 
+ ![image](https://user-images.githubusercontent.com/86648102/140811943-24665b1c-83e7-4bff-8c32-07e3c820cbca.png)
+
+ 
+ 
+ 
+ <br>  
+</details> 
+ 
+ 
+ 

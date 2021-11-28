@@ -51,11 +51,25 @@ To put the yanked or deleted text, move the cursor to the desired location and p
 
 
 
-<details><summary> Day 7 - Editing with "vim" </summary>
+<details><summary> Day 7️⃣ - Install Apache (also known as **httpd** </summary>
  <br>
 
-    1) Connect and login remotely to your server
+    1) `sudo apt update && sudo apt upgrade` to update the system
+    2) `sudo apt install apache2'
   
-  
+ ![image](https://user-images.githubusercontent.com/86648102/143772031-e91139d5-5467-40e9-a150-cfae05193dee.png)
+
+  Now, by putting out `Public` IPv4 address into a browser, we'll get this message:
+ 
+ ![image](https://user-images.githubusercontent.com/86648102/143772163-a9c49935-ed3a-438e-b830-269666d19bc8.png)
+
+   3) Check the status of the apache service with `systemctl status apache2.service`
+ 
+   ![image](https://user-images.githubusercontent.com/86648102/143772222-7d09a83a-184c-4e41-b735-c112eae563af.png)
+
+ 
+ 
+ 
+ 
   <br>
 </details>

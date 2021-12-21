@@ -1,4 +1,4 @@
-<details><summary> Day 6️⃣ - Editing with "vi/vim" </summary>
+<details><summary> Day 6 - Editing with "vi/vim" </summary>
  <br>
 
     1) Editing documents with `vi`. 
@@ -51,7 +51,7 @@ To put the yanked or deleted text, move the cursor to the desired location and p
 
 
 
-<details><summary> Day 7️⃣ - Install Apache (also known as **httpd** </summary>
+<details><summary> Day 7 - Install Apache (also known as **httpd** </summary>
  <br>
 
     1) `sudo apt update` and  `sudo apt upgrade` 
@@ -93,5 +93,28 @@ To put the yanked or deleted text, move the cursor to the desired location and p
  ![image](https://user-images.githubusercontent.com/86648102/143774117-994864fe-9fd9-4850-8fe1-04f47c9a70eb.png)
 
  
+  <br>
+</details>
+
+<details><summary> Day 8 - The infamous "grep" and other text processors </summary>
+ <br>
+
+   1) `cat /var/log/apache2/access.log` 
+   2) `less /var/log/apache2/access.log`
+   3) `sudo less /var/log/auth.log`
+    > View recent logins and sudo usage by viewing /var/log/auth.log with less
+
+   4) `head /var/log/apache2/access.log`
+   5) `tail /var/log/apache2/access.log`
+   6) `sudo cat /var/log/auth.log | grep "authenticating"`
+
+      `grep "authenticating" /var/log/auth.log | grep "root"`
+   7) cut : command to select out most interesting portions of each line by specifying "-d" (delimiter) and "-f" (field)
+      `grep "authenticating" /var/log/auth.log| grep "root"| cut -f 10- -d" "`
+
+
+
+
+
   <br>
 </details>

@@ -112,9 +112,37 @@ To put the yanked or deleted text, move the cursor to the desired location and p
    7) cut : command to select out most interesting portions of each line by specifying "-d" (delimiter) and "-f" (field)
       `grep "authenticating" /var/log/auth.log| grep "root"| cut -f 10- -d" "`
 
-
-
-
-
   <br>
+</details>
+
+<details><summary> Day 9 - Diving into networking </summary>
+ <br>
+  
+    1) `netstat` : Print network connections, routing tables, interface statis‐tics, masquerade connections, and multicast memberships
+`netstat -l`
+`netstat -lp`
+`netstat -r` 
+`netstat -i` 
+ 
+    2) `ss` : Socket Status
+ `ss -ltp` 
+ ![image](https://user-images.githubusercontent.com/86648102/155973208-6e42d5a9-c4a4-4d94-8dba-f562baacf581.png)
+
+    3) `namp` : Network Mapper
+ `nmap localhost`
+ ![image](https://user-images.githubusercontent.com/86648102/155973528-915be1cf-f5e1-4ab5-aaae-9e7c57f96a3a.png)
+
+    4) Firewalls : `ufw`
+ `sudo ufw status`
+ `sudo ufw deny http`
+ `sudo ufw enable`
+ `sudo ufw status`
+ `sudo ufw allow http`
+ ![image](https://user-images.githubusercontent.com/86648102/155975053-261ef379-5d6e-4ac1-9d0b-093f90975c38.png)
+
+ 
+ 
+ 
+ 
+   <br>
 </details>

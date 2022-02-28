@@ -146,3 +146,17 @@ To put the yanked or deleted text, move the cursor to the desired location and p
  
    <br>
 </details>
+
+
+<details><summary> Day 10 - Getting the computer to do your work for you </summary>
+ <br>
+
+    1) Crontab : edit it with `sudo vi /etc/crontab` and add your entries at the bottom of the file.
+ ![image](https://user-images.githubusercontent.com/86648102/155978881-6df90ffa-1220-4da5-a11f-4837d01a2f14.png)
+
+ 
+ 
+ 
+ 
+    <br>
+</details>
